@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple store</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="./font.css" />
+  </head>
+  <body>
+    <div class="h-13 md:h-[70px] bg-primary flex items-center justify-center">
+      <p class="text-sm md:text-base text-white font-semibold">
+        تا ۷۰٪ تخفیف برای لوازم جانبی اورجینال آیفون
+      </p>
+    </div>
+    <header
+      class="max-lg:shadow-[0_0_20px_-5px_#0000001A] lg:border-b border-[#E6E6E6]">
+      <div
+        class="container m-auto flex flex-col gap-6 px-6 py-6 sm:px-2 lg:py-8">
+        <div class="flex items-center justify-between">
+          <span class="md:hidden"
+            ><img src="./assets/svg/hamburger.svg"
+          /></span>
+          <div
+            class="flex items-center gap-1 md:gap-5 text-primary font-medium">
+            <img class="w-8 md:w-13" src="./assets/svg/app-store.svg" />
+            <p class="w-5 leading-4 md:w-fit md:text-[30px]">اپل استور</p>
+          </div>
+          <div class="hidden lg:flex gap-2">
+            <button
+              class="h-11 w-35 flex items-center justify-center gap-3 rounded-full bg-primary">
+              <div class="flex flex-col gap-1">
+                <span class="block h-0.5 w-4 bg-white"></span>
+                <span class="block h-0.5 w-4 bg-white"></span>
+                <span class="block h-0.5 w-4 bg-white"></span>
+              </div>
+              <span class="text-white">محصولات</span>
+            </button>
+            <div
+              class="w-90 flex justify-between bg-[#FBFBFB] py-2.5 px-4 rounded-full">
+              <input
+                type="text"
+                class="w-full bg-[#FBFBFB] placeholder:text-[#303030] placeholder:font-medium focus:outline-0"
+                placeholder="جستجو کنید" />
+
+              <img src="./assets/svg/search-normal.svg" />
+            </div>
+          </div>
+          <div class="flex gap-3">
+            <div class="relative">
+              <img src="./assets/svg/shopping-cart.svg" />
+              <span
+                class="block w-3 h-3 text-center text-[10px] bg-primary rounded-full text-white absolute -top-1 -right-1"
+                >0</span
+              >
+            </div>
+            <div class="relative">
+              <img src="./assets/svg/heart.svg" />
+              <span
+                class="block w-3 h-3 text-center text-[10px] bg-primary rounded-full text-white absolute -top-1 -right-1"
+                >0</span
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full flex lg:hidden justify-between bg-[#F1F1F1] py-2.5 px-4 rounded-full">
+          <input
+            class="placeholder:text-[#282828B2] placeholder:font-light focus:outline-0"
+            type="text"
+            placeholder="جستجو کنید" />
+          <img src="./assets/svg/search-normal.svg" />
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/YekanBakh-Hairline.woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/YekanBakh-Thin.woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/YekanBakh-Light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/YekanBakh-Regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/YekanBakh-Medium.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/YekanBakh-Bold.woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/YekanBakh-Heavy.woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/YekanBakh-Fat.woff2");
+  font-weight: 800;
+}
+
+/* https://www.figma.com/design/c1BJuCUDz1VqGPZhDM96sK/Botostart-Tailwind-Course---Ecommerce?node-id=1-15&t=EL3NLp2MMmTFYGBL-1 */
